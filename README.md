@@ -11,6 +11,7 @@
 
 ## Dataset
 It's available in the following link: https://www.kaggle.com/c/digit-recognizer/data
+
 But can be acessed directly by the Tensorflow Library with this code:
 ```
 from tensorflow.keras.datasets import mnist
@@ -19,6 +20,10 @@ from tensorflow.keras.datasets import mnist
 
 ## Tools
 Although I used Tensorflow to read the dataset, I decided to study and use Pytorch, so in both models I used Pytorch
+
+And if you want, you can download and use the trained models:
+- Regular Neural Network: [model_nn.pt](https://github.com/davirpp/Handwritten-Digits-MNIST/blob/main/model_nn.pt)
+- Convolutional Neural Network: [model_conv.pt](https://github.com/davirpp/Handwritten-Digits-MNIST/blob/main/model_conv.pt)
 
 ## Results
 I'll let you see the results and conclusion of this work in the notebook!
